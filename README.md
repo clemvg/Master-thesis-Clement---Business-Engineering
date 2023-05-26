@@ -17,7 +17,7 @@ CSV and numpy files:
 - sentiment_data.npy: best sentiment sentiment time series (input data)
 
 Notebooks:
-- News_database_preprocessing: news database preprocessing (from 221k to 42k articles)
+- News_database_preprocessing: news database preprocessing (from 221k to 42k articles). Note that unfortunately the original database containing 220k articles is too large to be uploaded - can be asked on request.
 - FinBERT and corr_analysis: code to extract sentiment from news database using FinBERT and converting polarity scores to one single score + correlation analysis
 - YH_market_cap_prop_retrieval: market cap proportion computations scraped from YH during analyzed time period
 
