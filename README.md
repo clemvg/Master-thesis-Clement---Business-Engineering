@@ -12,13 +12,13 @@ CSV and numpy files:
 - sentimentheadlines_postFinBERT: sentiment score (positive, negative, neutral) of news database headlines obtained with FinBERT
 - sentimentbodies_postFinBERT.7z: sentiment score (pos, neg, neu) of news database bodies obtained with FinBERT (use 7z software to unzip it)
 - Ticker proportions and correlations results: market cap proportion + price-news correlations results
-- price.csv: YH Nasdaq100 index ope, close, volumne data
+- price.csv: YH Nasdaq100 index open, close, volume data
 - price.npy: adj close price Nadaq100 numpy array (target variable)
-- sentiment_data.npy: best sentiment sentiment time series (input data)
+- sentiment_data.npy: best news sentiment time series (input data)
 
 Notebooks:
 - News_database_preprocessing: news database preprocessing (from 221k to 42k articles). Note that unfortunately the original database containing 220k articles is too large to be uploaded - can be asked on request.
-- FinBERT and corr_analysis: code to extract sentiment from news database using FinBERT and converting polarity scores to one single score + correlation analysis
+- FinBERT and corr_analysis: code to extract sentiment from news database using FinBERT and converting three polarity scores to one single score + correlation analysis
 - YH_market_cap_prop_retrieval: market cap proportion computations scraped from YH during analyzed time period
 
 The results from the 288 tested model configurations are on the main page alongside the proposed set-up 3(IMFs stacked in one single LSTM model)
