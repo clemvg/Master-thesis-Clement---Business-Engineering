@@ -21,6 +21,6 @@ Notebooks:
 - FinBERT and corr_analysis: code to extract sentiment from news database using FinBERT and converting polarity scores to one single score + correlation analysis
 - YH_market_cap_prop_retrieval: market cap proportion computations scraped from YH during analyzed time period
 
-The results from the 288 tested model cinfigurations are on the main page alongside the proposed set-up 3(IMFs stacked in one single LSTM model)
+The results from the 288 tested model configurations are on the main page alongside the proposed set-up 3(IMFs stacked in one single LSTM model)
 
 For addtional questions please contact me through following email address: clement.vangoethem@student.kuleuven.be
